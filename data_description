@@ -1,0 +1,142 @@
+circuits.csv
+circuitId: id
+circuitRef: reference name of circuit
+name: Actual name of circuit
+location: city
+country: country
+lat: latitude
+lng: longitude
+alt: altitude
+url: wikepedia url
+
+constructor_results.csv
+constructorResultsId: Id
+raceId: Id of race
+constructorId: Id of constructor
+points: Points
+status: Status of result
+
+constructor_standings.csv
+constructorStandingsId: Id
+raceId: Id of race
+constructorId: Id of constructor
+points: Points
+position: Final position
+positionText: Final position in text
+wins: Number of wins
+
+constructors.csv
+constructorId: Id
+constructorRef: Reference name of constructor
+name: Actual name of constructor
+nationality: Country
+url: Wikipedia URL
+
+driver_standings.csv
+driverStandingsId: Id
+raceId: Id of race
+driverId: Id of driver
+points: Points
+position: Final position
+positionText: Final position in text
+wins: Number of wins
+
+drivers.csv
+driverId: Id
+driverRef: Reference name of driver
+number: Driver number
+code: 3-letter alphabet code of driver
+forename: First name
+surname: Last name
+dob: Date of birth
+nationality: Country
+url: Wikipedia URL
+
+lap_times.csv
+raceId: Id of race
+driverId: Id of driver
+lap: Lap number
+position: Final position
+time: Time
+milliseconds: Time in milliseconds
+
+pit_stops.csv
+raceId: Id of race
+driverId: Id of driver
+stop: Stop number
+lap: Lap number
+time: Time of pit stop
+duration: Duration of pit stop
+milliseconds: Duration of pit stop in milliseconds
+
+qualifying.csv
+qualifyId: Id
+raceId: Id of race
+driverId: Id of driver
+constructorId: Id of constructor
+
+races.csv
+raceId: Id of race
+year: Year
+round: Race number
+circuitId: Id of circuit
+name: Name of circuit
+date: Date
+time: Time
+url: Wikipedia URL
+fp1_date: free practice 1 date
+fp1_time: free practice 1 time
+fp2_date: free practice 2 date
+fp2_time: free practice 2 time
+fp3_date: free practice 3 date
+fp3_time: free practice 3 time
+quali_date: qualifying session date
+quali_time: qualifying session time
+sprint_date: sprint race date
+sprint_time: sprint race time
+
+results.csv
+resultId: Id
+raceId: Id of race
+driverId: Id of driver
+constructorId: Id of constructor
+number: Car number
+grid: Position in starting grid
+position: Final position
+positionText: Final position in text
+positionOrder: Final rank
+points: Points
+laps: Laps
+time: Time
+milliseconds: Time in milliseconds
+fastestLap: Lap number of fastest lap
+rank: Rank of fastest lap
+fastestLapTime: Lap time of fastest lap
+fastestLapSpeed: Top speed of fastest lap
+statusId: Id of status
+
+seasons.csv
+year: Year
+url: Wikipedia URL
+
+sprint_results.csv
+resultId: Id
+raceId: Id of race
+driverId: Id of driver
+constructorId: Id of constructor
+number: Car number
+grid: Position in starting grid
+position: Final position
+positionText: Final position in text
+positionOrder: Final rank
+points: Points
+laps: total laps completed by driver
+time: total race time of driver
+milliseconds: race time in milliseconds
+fastestLap: lap number of fastest lap
+fastestLapTime: lap time of fastest lap
+statusId: Id of status
+
+status.csv
+statusId: Id
+status: Name

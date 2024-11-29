@@ -138,7 +138,7 @@ class NN_Eval():
 
             
 
-    def validate_model(self, criterion, device='cuda'):
+    def validate_model(self, criterion, device='cpu'):
         self.model.eval()
         running_loss = 0.0
         with torch.no_grad():
